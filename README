@@ -1,0 +1,33 @@
+BACKGROUND.
+
+The Amazon Kindle is an e-book reader. 
+The primary method for getting content on it is via 'whispernet'.
+This service is not available outside of the US.
+
+Its possible to manually add content (txt and mobipocket 'prc') directly
+via the USB port - just like a USB memory stick.
+
+THE IDEA.
+
+Version 1.
+
+[in Java]
+
+Build a simple RSS reader (use existing libraries) to auto-download blog (etc)
+content to a indexed local repository. (use 'hibernate->mysql [etc])?
+
+Strip bare HTML to basic text and format simply for the Kindle.
+
+Build a simple 'sync' function to transfer to Kindle via USB.
+(initially , this can just be a copy to the device).
+
+Version 2.
+
+Add functionality to allow more management to the local repository, improve sync function. 
+
+Improve file format - so that 'prc' files can be generated - include images etc where appropriate - and tables of content etc.
+
+Version 3.
+
+...Shouldn't be necessary - since I'm Amazon will eventually release another Kindle which will work outside of the US :)
+
